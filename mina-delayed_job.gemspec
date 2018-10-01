@@ -6,11 +6,11 @@ require 'mina/delayed_job/version'
 Gem::Specification.new do |spec|
   spec.name          = "mina-delayed_job"
   spec.version       = Mina::DelayedJob::VERSION
-  spec.authors       = ["Stjepan Hadjic"]
-  spec.email         = ["d4be4st@gmail.com"]
+  spec.authors       = ["Stjepan Hadjic", "Michael Andersen"]
+  spec.email         = ["michael@aion.com"]
   spec.summary       = "Mina plugin for delayed job"
   spec.description   = "Added tasks for working with delayed job"
-  spec.homepage      = "https://github.com/d4be4st/mina-delayed_job"
+  spec.homepage      = "https://github.com/aion-dk/mina-delayed_job"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0")
@@ -21,5 +21,5 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency "bundler", "~> 1.7"
   spec.add_development_dependency "rake", "~> 10.0"
 
-  spec.add_dependency 'mina', '~> 1.0.0'
+  spec.add_dependency 'mina', '~> 1.0'
 end
